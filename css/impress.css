@@ -154,11 +154,14 @@ b#blanco{
 	text-shadow: -1px -1px 2px rgba(100,100,100,0.9);
 }
 
+#alineado{
+    text-align: center; 
+}
 /*
     ... and give links a nice look.
 */
 a {
-    color: inherit;
+    color: white;
     text-decoration: none;
     padding: 0 0.1em;
     background: rgba(255,255,255,0.5);
@@ -240,38 +243,21 @@ a:focus {
     Basically we remove the margin and make inactive steps a little bit transparent.
 */
 /*Images inicio*/
-img#img-tribus{
-	position: absolute;
-    right: 10%;
-    top:10%;
-}
 
-img#logo-inicio{
+img#logo-cropped{
     position: relative;
-    right: -20%;
-    top:0%;
+    top: -105%;
 }
-img#logo-gobierno{
-    position: relative;
-    right: 5%;
-    top:-5%;
+img#beneficios{
+    position: absolute;
+    right: 8%;
+    top: 15%;
 }
-img#bicentenario{
-    position: relative;
-    right: -38%;
-    top:-5%;
+img#filosofia-img{
+    position: absolute;
+    right: 1%;
+    top: 1%;
 }
-img#cnti{
-    position: relative;
-    right: -28%;
-    top:9%;
-}
-img#fidetel{
-    position: relative;
-    right: 5%;
-    top:-7%;
-}
-
 .impress-enabled .step {
     margin: 0;
     opacity: 0.3;
@@ -293,9 +279,6 @@ img#fidetel{
 
     They cover everything what you see on first three steps of the demo.
 */
-.slide#inicio {
-    background: url("../images/backgraund.png") no-repeat center center fixed;
-}
 .slide#app-canaima {
     background: url("../images/01_trompo.svg") no-repeat center center;
 }
@@ -349,9 +332,9 @@ img#fidetel{
 */
 
 #title {
-    padding: 0;
-    width: 900px;
+    padding: 15px;
     text-align: center;
+    font-weight: bold;
 }
 
 #title h1 {
@@ -388,8 +371,9 @@ img#fidetel{
 
 #concepts {
     padding: 0;
-    width: 900px;
+    width: 1200px;
     text-align: center;
+    color: white;
 }
 
 #concepts h1 {
@@ -403,6 +387,10 @@ img#fidetel{
 
 #concepts h3 {
     font-size: 32px;
+}
+
+#dweb {
+    color: white;
 }
 
 .bigtitle {
@@ -545,6 +533,11 @@ img#fidetel{
 
 #tribus h2{
     font-size: 200px;
+}
+
+div#filosofia li{
+    width: 770px;
+    font-size: 24px;
 }
 
 /*
