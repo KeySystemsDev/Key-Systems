@@ -258,6 +258,32 @@ img#filosofia-img{
     right: 1%;
     top: 1%;
 }
+img#de-web-img{
+    position: absolute;
+    right: 1%;
+    top: 65%;
+}
+img#dam{
+    position: absolute;
+    right: 25%;
+    top: 60%;
+}
+img#da{
+    position: absolute;
+    right: 35%;
+    top: 55%;
+}
+img#idrs{
+    position: absolute;
+    right: 35%;
+    top: 55%;
+}
+img#dwm{
+    position: absolute;
+    right: 3%;
+    top: 82%;
+}
+
 .impress-enabled .step {
     margin: 0;
     opacity: 0.3;
@@ -390,6 +416,9 @@ img#filosofia-img{
 }
 
 #dweb {
+    color: white;
+}
+#dm {
     color: white;
 }
 
@@ -536,6 +565,14 @@ img#filosofia-img{
 }
 
 div#filosofia li{
+    width: 770px;
+    font-size: 24px;
+}
+div#de-web li, p#de-web-p{
+    width: 770px;
+    font-size: 24px;
+}
+div#wm li, p#wm-p{
     width: 770px;
     font-size: 24px;
 }
