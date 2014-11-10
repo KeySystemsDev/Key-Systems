@@ -161,7 +161,7 @@ b#blanco{
     ... and give links a nice look.
 */
 a {
-    color: white;
+    color: rgb(102, 102, 102);
     text-decoration: none;
     padding: 0 0.1em;
     background: rgba(255,255,255,0.5);
@@ -283,6 +283,43 @@ img#dwm{
     right: 3%;
     top: 82%;
 }
+img#dg-1{
+    position: absolute;
+    left: 0%;
+    top: 63.3%;
+}
+img#dg-2{
+    position: absolute;
+    right: 10%;
+    top: 67%;
+}
+img#dg-3{
+    position: absolute;
+    right: 0%;
+    top: 58%;
+}
+img#vde-1{
+    position: absolute;
+    right: 38%;
+    top: 74%;
+}
+img#vde-2{
+    position: absolute;
+    right: 15%;
+    top: 72%;
+}
+img#vde-3{
+    position: absolute;
+    right: 0%;
+    top: 72%;
+}
+img#sr-1{
+    position: absolute;
+    right: 32%;
+    top: 70%;
+}
+
+
 
 .impress-enabled .step {
     margin: 0;
@@ -421,12 +458,16 @@ img#dwm{
 #dm {
     color: white;
 }
+#dg {
+    color: white;
+}
 
 .bigtitle {
     width: 600px;
     text-align: center;
     font-size: 60px;
     line-height: 1;
+    color: white;
 }
 
 .bigtitle b {
@@ -576,7 +617,17 @@ div#wm li, p#wm-p{
     width: 770px;
     font-size: 24px;
 }
-
+div#vde-1 li, p#vde-p{
+    width: 770px;
+    font-size: 24px;
+}
+div#vde-2 li{
+    width: 770px;
+    font-size: 24px;
+}
+div#sr p{
+    font-size: 24px;
+}
 /*
     The 'imagination' step is again some boring font-sizing.
 */
